@@ -11,6 +11,7 @@ contract MerkleTree is Verifier {
 
     constructor() {
         // [assignment] initialize a Merkle tree of 8 with blank leaves
+        
     }
 
     function insertLeaf(uint256 hashedLeaf) public returns (uint256) {
